@@ -1,0 +1,48 @@
+/* src/pages/register/register.css */
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .rContainer {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  
+  .rTitle {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .rInput {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .rButton {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .errorMessage {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .loginRedirect {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .loginLink {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
